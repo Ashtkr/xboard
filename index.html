@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0"
+    />
+    <title>Crio News Feed</title>
+    <meta name="description" content="Crio Feed Website" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="resources/css/index.css" />
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top">
+       <div id="logo"></div>
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Crio News Feed</span>
+      </div>
+    </nav>
+
+    <header>
+      <div id="heading" class="mt-2">
+        <h5>Today</h5>
+        <p>
+          The insights you need to keep ahead
+        </p>
+      </div>
+    </header>
+    <!--Start of the accordian-->
+    <section>
+      <div class="accordian" id="accordianId"></div>
+    </section>
+    <!--End of the accordian-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+      <script src="resources/data/magazines.js"></script>
+      <script src="resources/js/index.js"></script>
+  </body>
+</html>

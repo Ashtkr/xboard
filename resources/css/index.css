@@ -1,0 +1,96 @@
+.navbar{
+    height: 3rem;
+    background-color: white;
+    border-bottom: 1px solid #c4c9cc;
+    padding-left: 6.3rem;
+}
+
+#logo{
+    height: 0.5rem;
+    width: 1.5rem;
+    background-color: rgb(218, 27, 208);
+    border-radius: 1.2rem;
+    margin-bottom: -0.5rem;
+    margin-left: 0.8rem;
+}
+
+#heading{
+    padding-left: 7rem;
+}
+
+#heading p{
+    color: #c4c9cc;
+}
+
+section{
+    padding-left: 7rem;
+    padding-right: 10rem;
+}
+
+.accordion-button{
+    color: #1d1e1f;
+    font-weight: 500;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #6b6c6e;
+    box-shadow: 0 0 0 0.05rem rgba(96, 97, 99, 0.25);
+}
+.accordion-button:not(.collapsed){
+    color: #8d8e8f;
+    background-color: white;
+}
+
+/* .accordion-button:not(.collapsed)::before {
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/massager/drop-down-arrow-3.png");
+    transform: rotate(-180deg);
+}
+
+.accordion-button::before {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 1rem;
+    content: "";
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/massager/drop-down-arrow-3.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button::after {
+    display: none;
+} */
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        box-sizing: border-box;
+        margin: 0%;
+        padding-left: 0%;
+    }
+
+    #logo {
+        height: 0.5rem;
+        width: 1.5rem;
+        background-color: rgb(218, 27, 208);
+        border-radius: 1.2rem;
+        margin-bottom: -0.5rem;
+        margin-left: 0.8rem;
+    }
+
+    #heading{
+        box-sizing: border-box;
+        margin: 0%;
+        padding-left:1rem;
+    }
+
+    section {
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+}
+
